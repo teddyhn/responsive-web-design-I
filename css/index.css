@@ -332,9 +332,8 @@ address {
         margin: 40px 0;
         padding: 0;
     }
-    .services-sub-content {
-        height: 150px;
-        margin: 80px 0;
+    .services-main-content {
+        margin-top: 40px;
     }
     .services-footer {
         display: flex;
@@ -442,7 +441,13 @@ address {
         width: 430px;
         margin-bottom: 50px;
     }
-    .services-sub-content {
-        margin-top: 120px;
+    .services-main-content {
+        display: flex;
+        height: auto;
+        flex-flow: column;
+        align-items: center;
+    }
+    .services-main-content .container {
+        margin: 20px 0;
     }
 }
