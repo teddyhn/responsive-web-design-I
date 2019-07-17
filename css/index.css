@@ -219,7 +219,8 @@ div.below-img {
 
 footer {
 	padding: 30px 0;
-	text-align: center;
+    text-align: center;
+    width: 100%;
 }
 
 address {
@@ -474,7 +475,7 @@ address {
         align-items: center;
     }
     address {
-        width: 430px;
+        width: 100%;
         margin-bottom: 50px;
     }
     .services-main-content {
